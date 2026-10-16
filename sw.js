@@ -1,6 +1,6 @@
 /* Setlist Service Worker – macht die App offline verfügbar.
    Bei jeder neuen Version der App-Dateien die Zahl in CACHE erhöhen (v1 -> v2 ...). */
-const CACHE = 'setlist-v2';
+const CACHE = 'setlist-v3';
 const FILES = ['./', './index.html', './manifest.json', './icon-180.png', './icon-192.png', './icon-512.png', './icon-maskable-512.png'];
 
 self.addEventListener('install', e => {
